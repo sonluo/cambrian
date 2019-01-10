@@ -35,7 +35,7 @@ class Cambrian {
         }.invoke()
 
 
-        const val SUVN = "suvn.org"
+        private const val SUVN = "suvn.org"
         val POWERED_BY = NEW_LINE + NEW_LINE + SUVN.padStart(LINE_WIDTH, ' ')
     }
 }
